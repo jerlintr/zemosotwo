@@ -1,0 +1,28 @@
+#logo {
+
+  width: 100%;
+}
+
+.navbar-nav {
+  padding-left: 120px;
+}
+#help {
+  font-size: 40px;
+}
+
+#rocket {
+  height: 50%;
+  width: 65%;
+}
+
+.column {
+  float: left;
+  width:33.33%;
+  text-align: left;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

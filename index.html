@@ -1,0 +1,320 @@
+<html>
+
+<head>
+    <title>ZEMOSO</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+</head>
+
+<body>
+     <nav class="main-nav" role="navigation">
+       <div class="container">
+        <div class="navbar-header">
+                 <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <img id="logo" src="logo.png" alt="Logo">
+            </div>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item"><a href="#">Home</a></li>
+                    <li class="nav-item"><a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"
+                            data-delay="0" data-close-others="false" href="#">
+                        Practice Areas
+                          <i class="fa fa-angle-down"></i>  
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item"><a href="#">Design <h6>We partner with your product management to create <br>amazing experiences using design thinking methodology</h6></a></li>
+                            <li class="nav-item"><a href="#">Experiment<h6>We partnerr with your business to test business <br>assumptions and de-risk the preeactice of innovation </h6></a></li>
+                            <li class="nav-item"><a href="#">Build<h6>We partner with your delivery teams to build disruptive <br>technology products in an agile fashion</h6></a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"
+                            data-delay="0" data-close-others="false" href="#">Verticals<i
+                                class="fa fa-angle-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">HealthTech</a></li>
+                            <li><a href="#">FinTech</a></li>
+                            <li><a href="#">BioTech</a></li>
+                            <li><a href="#">EnergyTech</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="#">Case Studies</a></li>
+                    <li class="nav-item"><a href="#">Blog</a></li>
+                    <li class="nav-item"><a href="#">Contact Us</a></li>
+                    <li class="nav-item">
+                        <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"
+                            data-delay="0" data-close-others="false" href="#">About Us
+                            <i class="fa fa-angle-down"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Meet the Team</a></li>
+                            <li><a href="#">Careers Overview</a></li>
+                            <li><a href="#">Open Positions</a></li>
+                            <li><a href="#">Back to Work Program</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+   
+
+    <div style="background-color: rgba(247, 248, 252, 0.686);">
+        <center>
+            <br>
+            <br>
+            <h3>Zero to One Lean Acceleration</h3>
+            <h1 id="help"><b>Helping you take ideas from Napkin to Product Market Fit</b></h1><br>
+            <img id="rocket" src="rocket.jpg"><br><br><br>
+        </center>
+    </div>
+    <div>
+        <center>
+            <br>
+            <br>
+            <h3>Problems we solve</h3>
+            <h1 id="help"><b>Early Course Correction</b></h1><br>
+            <img id="rocket" src="rocket.jpg"><br><br>
+            <p style="text-align: center;">Only one in seventy-five new business initiatives get to product-market
+                fit.
+                <b>We can help.</b>
+                <br><br>Specialized services take your idea from napkin
+                to product market fit rapidly and cost-effectively. We are great at risk. Experienced entrepreneurs
+                who have pivoted <br>(successfully) countless times are here to help you offset and prevent risk.
+                <b>Increasing your odds of success by 4x.</b>
+            </p>
+        </center>
+    </div>
+    <div style="background-color: rgba(247, 248, 252, 0.686);">
+        <center>
+            <br>
+            <br>
+            <h3>How we do it</h3>
+            <h1 id="help"><b>Product Market Fit Optimization</b></h1><br>
+            <img id="rocket" src="rocket.jpg"><br><br><br>
+            <div class="row">
+                <div class="column" style="padding-left: 210px;">
+                    <h2>Design thinking</h2>
+                    <p>Zemoso designers build amazing clickable <br>prototypes to use to validate ideas, line up
+                        <br>necessary features and get to the next stage of <br>funding and stakeholder validation.
+                    </p>
+                    <button style="background-color:black; color:white">Read more</button>
+                </div>
+                <div class="column" style="padding-left: 100px;">
+                    <h2>Lean experimentation</h2>
+                    <p>Growth facilitators help with customer <br>acquisition and message testing. They use
+                        <br>innovation marketing techniques to help <br>you get data and test your ideas.</p>
+                    <button style="background-color:black; color:white">Read more</button>
+                </div>
+                <div class="column" style="padding-right: 100px;">
+                    <h2>Agile execution</h2>
+                    <p>Using our architectural models based on <br>your end market needs, agile engineers
+                        <br>execute on
+                        your vision in a way that can be <br>quickly scaled up to meet your end market <br>demand.
+                    </p>
+                    <button style="background-color:black; color:white">Read more</button>
+                </div>
+            </div>
+        </center>
+    </div>
+    <div>
+        <center>
+            <br>
+            <br>
+            <h1 id="help"><b>Deep Technology Expertise</b></h1><br>
+            <div class="row">
+                <div style="float: left;  width:50%;  text-align: left; padding-left: 250px;">
+                    <h3>Natural Language Understanding</h3>
+                    <p>Our expertise in natural language ranges from Information Extraction
+                        from structured and unstructured data, Summarization, Text Classification, Sentiment
+                        Analysis,
+                        Named Entity Detection and Topic modeling.<br><br>One of real-world examples is Zemoso’s IP
+                        product app, Textractive, which summarizes phone conversations and meetings and extract
+                        action
+                        items and list them for follow up.<br><br>Some of the frameworks libraries we use
+                        extensively
+                        are: tensorflow, BERT, Spacy, scikit-learn, rasa, NLU.
+                    </p>
+                </div>
+                <div style="float: left;  width:50%;  text-align: left; padding-right: 150px;">
+                    <h3>Machine Learning and Artificial Intelligence</h3>
+                    <p>Zemoso engineers work daily with speech-to-text detection, detecting
+                        the onset of disease, chatbots and conversational assistants filling in missing characters
+                        and
+                        predicting scanned document fills, data augmentation and generation, object detection in
+                        videos
+                        and images, plus anomaly detection.
+                    </p><br>
+                    <p>We specialize in Deep Neural Network models — CNN, DNN, Bidirectional Encoder Representations
+                        from Transformers (BERT), Universal Sentence Encoder and survival regression models. We have
+                        an
+                        in-house domain-focused Speech-to Text engine built on DeepSpeech 2, which has been trained
+                        using 50 terabytes of audio files(40,000 hours).</p><br>
+
+                    <p>Some of the frameworks and libraries we use are Tensorflow, scikit-learn, PyTorch, SparkML.
+                    </p>
+                    </p>
+                </div>
+            </div>
+        </center>
+    </div>
+    <div style="background-color: rgba(247, 248, 252, 0.686);">
+        <div id="demo" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+                <li data-target="#demo" data-slide-to="3"></li>
+                <li data-target="#demo" data-slide-to="4"></li>
+                <li data-target="#demo" data-slide-to="5"></li>
+                <li data-target="#demo" data-slide-to="6"></li>
+            </ul>
+            <div class="carousel-inner">
+
+                <div class="item active">
+                    <center>
+                        <h1 id="help"><b>Testimonials
+                            </b></h1>
+                        <img src="Dharmendra_Mohan_sonet.png"
+                            style="border-radius: 100%;  width: 100px;  height: 100px;">
+                        <br><br>
+                        <p>"Sonet.io has launched a disruptive cybersecurity cloud service, and Zemoso Labs' agile
+                            product
+                            team was an integral part of that journey. We validated our solution at lightning speed with
+                            an
+                            on-point prototype designed by Zemoso after a well-executed Design Sprint. Zemoso worked
+                            collaboratively with our internal team to productize our proprietary technology for the
+                            launch.
+                            They moved quickly on customer feedback, and fast tracked every design and development cycle
+                            without compromising on quality or attention to detail. We were able to expand our cloud
+                            service
+                            capabilities by having Zemoso take on specific aspects of the service, design it, develop
+                            it,
+                            and see it through to launch. It was co-creation at its best"</p>
+                        <p><b>Dharmendra Mohan - CEO and Co-founder, Sonet.io</b></p>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <h1 id="help"><b>Testimonials
+                            </b></h1>
+                        <img src="ada.jpg" style="border-radius: 100%;  width: 100px;  height: 100px;">
+                        <br><br>
+                        <p>"Zus is an early stage startup in the healthcare technology space that needed help to
+                            accelerate product development. The Zemoso team has been a compelling partner from ideation
+                            through build and deployment. Initially, the Zemoso team co-facilitated a Design Sprint that
+                            resulted in a compelling product prototype and demo that could be used for user research and
+                            recruitment of early customers. Zemoso then partnered closely with Zus product and
+                            engineering counterparts to design, build, test and deploy capabilities on an aggressive
+                            timeline. The Zemoso team was collaborative, proactive, and brought a diverse set of
+                            capabilities to the table. They continue to be a trusted partner"</p>
+                        <p><b>Ada Glover - Co-Founder and Chief Product Officer, Zus Health</b></p>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <h1 id="help"><b>Testimonials
+                            </b></h1>
+                        <img src="prakash.jpg" style="border-radius: 100%;  width: 100px;  height: 100px;">
+                        <br><br>
+                        <p> "Rapid and iterative prototyping is both a science and an art form that requires design
+                            thinking,
+                            excellent grasp of use cases, and state of the art technologies. It's not easy to build
+                            prototypes, and for that reason - frequently- entrepreneurs use external expertise to build
+                            them. I have effectively continually done so with our partnership Zemoso Technologies and
+                            would work with them again"</p>
+                        <p><b>Prakash Khot - Co-Founder, Skyflow</b></p>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <h1 id="help"><b>Testimonials
+                            </b></h1>
+                        <img src="alok.jpg" style="border-radius: 100%;  width: 100px;  height: 100px;">
+                        <br><br>
+                        <p>"The Zemoso team has been super helpful, they have taken a lot of load off the existing team,
+                            we
+                            were able to churn out a lot more features because of this partnership. Our product team has
+                            been able to focus a lot on new customer acquisition and product line diversification.
+                            Zemoso development team is an integral part of our team, an extended arm to rely upon"</p>
+                        <p><b>Alok Gupta - SVP Engineering, Strateos</b></p>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <h1 id="help"><b>Testimonials
+                            </b></h1><img src="raju.jpg" style="border-radius: 100%;  width: 100px;  height: 100px;">
+                        <br><br>
+                        <p>"Building differentiated custom data visualization widgets is Zemoso's forte. Zemoso was a
+                            key development partner in our platform"</p>
+                        <p><b>Raju Kattumenu - CEO, Oculus360</b></p>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <h1 id="help"><b>Testimonials
+                            </b></h1><img src="gustovo.jpg" style="border-radius: 100%;  width: 100px;  height: 100px;">
+                        <br><br>
+                        <p>"Zemoso is an ideal partner for lean launches. Our mobile application is a complex native iOS
+                            and
+                            Android app involving VoiP protocols & localization. Zemoso helped us launch our app in a
+                            time sensitive manner, and backed us up great after launch"</p>
+                        <p><b>Gustavo Zepeda - Product Manager, TuFono</b></p>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <h1 id="help"><b>Recognitions
+                            </b></h1><img src="tech.jpg">
+                        <br><br>
+                        <p>"We are ranked by deloitte as one of India 's top 50 fastest growing tech firms in 2016, 2018
+                            and 2019"</p>
+                    </center>
+                </div>
+
+            </div>
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#demo" data-slide="prev">
+
+            </a>
+            <a class="right carousel-control" href="#demo" data-slide="next">
+
+            </a>
+        </div>
+    </div>
+    <hr>
+    <div>
+        <p style="padding-left: 100px;"><i class="fa fa-copyright"></i>2021 Zemoso Technologies</p>
+        <a href="https://www.twitter.com/">&nbsp;
+            <img src="twitter.png"
+                style="border-radius: 100%;  width: 20px;  height: 20px; float:right; margin-left: 10px;">
+        </a>
+        <a href="https://www.facebook.com/">&nbsp;
+            <img src="facebook.jpg" style="border-radius: 100%;  width: 20px;  height: 20px; float:right;">
+        </a>
+        <a href="https://in.linkedin.com/">
+            &nbsp;
+            <img src="linked.png"
+                style="border-radius: 100%;  width: 20px;  height: 20px; float:right; margin-right: 10px;">
+        </a>
+        </a>
+
+    </div>
+    <div style="padding-left: 100px;">
+        <a href="https://zemosolabs.com/privacy" style="color:black;">Privacy Policy</a>
+        <a href="https://www.zemosolabs.com/tos" style="color:black;">Terms of Use</a>
+    </div>
+
+</body>
